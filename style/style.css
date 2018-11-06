@@ -1,0 +1,134 @@
+body {
+    background-color: #298240 !important;
+}
+
+/** HEADER STYLE **/
+.game-header {
+	height: 130px;
+}
+
+.title {
+    font-size: 55px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    height: 40px;
+    color: #333;
+}
+
+.details {
+    font-size: 20px;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.input-group-btn {
+	float: right;
+}
+
+button.btn.btn-secondary {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+button.btn.btn-secondary:hover{
+	background-color: rgba(230, 13, 21, 1);
+}
+
+.container{
+    width: 100%;  
+    margin-bottom: 100px;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+/** HAND  **/
+
+.player{
+	height: 300px;
+    border-bottom: 4px solid black;
+}
+
+.player-title {
+    font-size: 25px;
+    text-transform: capitalize;
+    margin: 20px;
+}
+
+.sum {
+    margin-left: 30px;
+    border: solid;
+    padding: 10px;
+    background: white;
+}
+
+/** CARD  **/
+
+.list-unstyled { 
+    display: table-cell;
+    margin-right: 10px;
+    height: 200px;
+    width: 150px;
+    border: solid;
+    font-size: 20px;
+    cursor: pointer;
+    background: white;
+}
+
+.list-unstyled.false {
+    background: #CCD0CF;
+}
+
+.false div {
+    display: none;
+}
+
+span.top {
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+span.bottum {
+    position: relative;
+    top: 160px;
+    float: right;
+    right: 10px;
+    border-radius: 50%;
+}
+
+.black {
+    color: black;
+}
+
+.red {
+    color: red;
+}
+
+/** POP UP GAME RESULT  **/
+.result-msg {
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    border: solid;
+    background-color: black;
+    z-index: 100;
+    top: 30%;
+    left: 30%;
+    font-size: 35px;
+    padding-top: 100px;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+}
+
+.result-msg button.btn.btn-secondary {
+    display: block;
+    margin: 20px auto;
+}
